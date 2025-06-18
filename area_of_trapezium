@@ -1,0 +1,5 @@
+import steamlit as st
+b=st.number input("enter b")
+h=st.number input("enter h")
+area=0.5*(b+h)
+st.write(area)
